@@ -1,0 +1,67 @@
+body, h1, h2, h3, h4, p, ul[class], ol[class],
+li, figure, figcaption, blockquote, dl, dd {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+/* ===================== area ================= */
+.wrapper {
+    margin: 0 15px;
+}
+
+.titel {
+    margin: 44px 0 60px 0;
+}
+
+.titel-text {
+    text-align: center;
+    font-size: 30px;
+    color: blue;
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #0027fc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    font-size: 17px;
+}
+
+button {
+    background-color: #0027fc;
+    color: white;
+    font-size: 15px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #102bb4;
+}
+
+.block-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.block-button button{
+    font-size: 25px;
+}

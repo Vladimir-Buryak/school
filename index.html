@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style/style-calculator.css">
+    <title>calculator</title>
+</head>
+<body>
+ <div class="wrapper">
+    <div class="titel">
+        <h3 class="titel-text">Це найпростіший калькулятор</h3>
+    </div>
+     <div class="block-table">
+         <table class="calculator">
+             <tr>
+                 <td><p class="table-text">Введіть перше число</p></td>
+                 <td> <input class="number-one" type="text"></td>
+                 <td rowspan="4">
+                     <div class="operations">
+                         <input type="button" value=" + ">
+                         <input type="button" value=" - ">
+                         <input type="button" value=" * ">
+                         <input type="button" value=" / ">
+                         <input type="button" value=" sqrt ">
+                     </div>
+                 </td>
+             </tr>
+             <tr>
+                 <td><p class="table-text">Введіть друге число</p></td>
+                 <td> <input class="number-two" type="text"> </td>
+             </tr>
+             <tr>
+                 <td><p class="table-text">Результат:</p></td>
+                 <td><input class="result" type="text" readonly></td>
+             </tr>
+             <tr >
+                 <td colspan="2">
+                     <div class="delete">
+                         <button class="delete-button"> Очистити </button>
+                     </div>
+                 </td>
+             </tr>
+
+         </table>
+     </div>
+     <div class="block-button">
+         <button onclick="window.location.href = 'area.html';">Обчислення площі прямокутного трикутника</button>
+     </div>
+ </div>
+<script src="js/javascript-calculator.js"></script>
+</body>
+</html>

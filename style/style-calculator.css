@@ -1,0 +1,77 @@
+body, h1, h2, h3, h4, p, ul[class], ol[class],
+li, figure, figcaption, blockquote, dl, dd {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+/* ===================== calculator ================= */
+.wrapper {
+    margin: 0 15px;
+}
+.titel{
+    margin: 44px 0 60px 0;
+}
+
+.titel-text{
+    text-align: center;
+    font-size: 30px;
+    color: blue;
+}
+
+th,td{
+     border: 1px solid grey;
+     text-align:center;
+}
+
+.block-table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table{
+    border: #0027fc solid 4px;
+}
+
+.table-text{
+    font-size: 25px;
+    color: blue;
+    text-align: left;
+    margin: 5px;
+}
+
+input[type="button"]{
+    font-size: 18px;
+    padding: 4px 3px;
+}
+
+input[type="text"]{
+    font-size: 25px;
+}
+
+.operations{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.delete{
+    display: flex;
+    justify-content: right;
+}
+
+.delete-button {
+    font-size: 20px;
+}
+
+.block-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.block-button button{
+    font-size: 25px;
+}
+

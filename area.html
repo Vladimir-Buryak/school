@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style/style-area.css">
+    <title>area</title>
+</head>
+<body>
+<div class="wrapper">
+    <div class="titel">
+        <h3 class="titel-text">Обчислення площі прямокутного трикутника</h3>
+    </div>
+    <form id="triangleForm">
+        <label for="base">Основа (a):</label>
+        <input type="text" id="base" name="base" required>
+
+        <label for="height">Висота (h):</label>
+        <input type="text" id="height" name="height" required>
+
+        <label for="result">Площа трикутника::</label>
+        <input type="text" id="result" name="result" readonly>
+
+        <button class="count" type="button">Обчислити площу</button>
+        <button class="delete-button" type="button">Очистити</button>
+    </form>
+    <div class="block-button">
+        <button onclick="window.location.href = 'index.html';">Калькулятор</button>
+    </div>
+</div>
+<script src="js/javascript-area.js"></script>
+</body>
+</html>
